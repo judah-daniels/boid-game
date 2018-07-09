@@ -2,7 +2,7 @@
 function Building(x_, y_, w_, h_, buffer_) {
 	this.pos = createVector(x_, y_);
 	this.dimensions = createVector(w_, h_);
-	this.buffer = buffer_
+	this.buffer = buffer_;
 }
 
 // Draws the building
